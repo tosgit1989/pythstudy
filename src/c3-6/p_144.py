@@ -1,0 +1,6 @@
+i = iter(range(1, 4))
+print(i)
+print(next(i))
+print(next(i))
+print(next(i))
+print(next(i))
