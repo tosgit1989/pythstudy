@@ -1,7 +1,7 @@
-import random
+#!/usr/bin/env python
 
-print("Content-Type: text/html")
-print("")
+import random
+print("Content-Type: text/html; charset=utf-8")
 
 no = random.randint(1, 6)
 print("""
@@ -12,3 +12,4 @@ print("""
   </body>
   </html>
 """.format(num=no))
+
